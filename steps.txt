@@ -1,0 +1,17 @@
+1. create the model
+
+    sequential and dense from keras.model and keras.layer
+
+
+2. claculate loss and cost function
+
+        logistics loss is also known as binary cross entropy 
+
+    ->model.complie(loss=BinaryCrossentripy())
+
+
+
+3. Gradient descent 
+
+    model.fit(X,y,epochs=100)
+
